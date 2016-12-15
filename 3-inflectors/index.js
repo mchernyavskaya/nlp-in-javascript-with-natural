@@ -1,8 +1,8 @@
 var natural = require('natural');
 
 var nounInflector = new natural.NounInflector();
-console.log(nounInflector.pluralize("mouse"));
-console.log(nounInflector.singularize("tomatoes"));
+console.log(nounInflector.pluralize("spouse"));
+console.log(nounInflector.singularize("fruit"));
 
 var countInflector = natural.CountInflector;
 
